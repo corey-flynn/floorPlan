@@ -1,0 +1,40 @@
+{
+  "id": "",
+  "version": "0.0.0",
+  "extensions": [
+    {
+      "name": "floorPlan",
+      "title": "floorPlan",
+      "products": [
+        "chart",
+        "spark",
+        "teamspaces"
+      ],
+      "codePath": "editorextensions/floorPlan/bin/extension.js",
+      "scopes": [
+        "READ",
+        "WRITE",
+        "DOWNLOAD",
+        "SHOW_MODAL",
+        "CUSTOM_UI",
+        "NETWORK"
+      ]
+    }
+  ],
+  "shapeLibraries": [
+    {
+      "name": "blueprint",
+      "product": "chart",
+      "lcszPath": "shapelibraries/blueprint.lcsz"
+    }
+  ],
+  "oauthProviders": [],
+  "dataConnectors": [
+    {
+      "name": "kitchenTable",
+      "oauthProviderName": "",
+      "callbackBaseUrl": "",
+      "dataActions": {}
+    }
+  ]
+}
